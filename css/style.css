@@ -32,7 +32,7 @@ ul {
     vertical-align: middle;
 }
 
-nav.topbar .blue-button button{
+.blue-button{
     background-color: #0061ff;
     color: white;
     border: none;

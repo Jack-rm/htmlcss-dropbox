@@ -10,11 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
 
+    <!-- Link per font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
 <body>
 
+    <!-- Header con icona logo, liste e tasto inizia -->
     <header>
         <div class="header-container">
             <nav class="topbar clearfix">
@@ -28,8 +32,8 @@
                     <li>Funzioni</li>
                     <li>Piani e prezzi</li>
                 </ul>
-                <ul class="blue-button fr">
-                    <li><button type="button">Inizia</button></li>
+                <ul class="fr">
+                    <li><button class="blue-button" type="button">Inizia</button></li>
                 </ul>
                 <ul class="header-menu fr">
                     <li>Supporto</li>
@@ -37,9 +41,32 @@
                     <li>Accedi</li>
                 </ul>
             </nav>
-
         </div>
     </header>
+
+    <main>
+
+        <!-- Jumbotron con sfondo azzurro, titolo grande e due box in float, una con i testi e l'altra con l'immagine -->
+        <div class="jumbotron">
+            <div class="jumbo-container clearfix">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <div class="jumbo-text-box fl">
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                    <button class="blue-button" type="button">Inizia la tua prova gratuita</button>
+                    <p>annulla in qualsiasi momento</p>
+                    <i class="fas fa-arrow-down fr"></i>
+                </div>
+                <div>
+                    <img src="img/jumbo.png" alt="Immagine generale di dropbox per jumbotron">
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
     
+
+
 </body>
 </html>
