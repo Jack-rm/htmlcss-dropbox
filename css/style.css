@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: lightcoral;
+}
+
+nav li{
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.topbar{
+    width: 98%;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+}
+
+.small-logo img{
+    vertical-align: middle;
+}
+
+nav.topbar .blue-button button{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    font-size: 1.1em;
+}
+
+ul.header-menu{
+    padding: 0 40px;
+}
+
+ul.header-menu li{
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
