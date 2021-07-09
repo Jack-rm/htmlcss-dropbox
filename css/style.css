@@ -91,9 +91,6 @@ ul.header-menu li{
     padding: 80px 0 50px 0;
 }
 
-
-
-
 .main-container{
     width: 65%;
     margin: 0 auto;
@@ -134,7 +131,8 @@ ul.header-menu li{
 }
 
 .business-column h4{
-    font-size: 2em;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 .business-column .blue-button{
@@ -164,6 +162,38 @@ ul.header-menu li{
 
 .column-main li{
     padding: 15px 0;
+}
+
+
+
+.team-section{
+    margin-top: 60px;
+    border: 1px lightgray solid;
+}
+
+.team-section .team-head{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+    border-bottom: 1px solid lightgray;
+}
+
+.team-section .team-main{
+    padding: 35px;
+}
+
+.team-section .team-main h4{
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.team-section .team-main button{
+    text-align: right;
+}
+
+.team-section .team-main p:first-of-type{
+    padding: 50px 0 25px 0;
+    font-weight: bold;
 }
 
 
