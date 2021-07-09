@@ -8,10 +8,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-header{
-    background-color: lightcoral;
-}
-
 nav li{
     display: inline-block;
 }
@@ -46,6 +42,7 @@ ul.header-menu{
 
 ul.header-menu li{
     font-weight: 400;
+    font-size: 1.1em;
     padding: 0 20px;
 }
 
@@ -57,12 +54,29 @@ ul.header-menu li{
 
 .jumbo-container{
     margin: 0 auto;
-    width: 85%;
+    width: 75%;
+    min-width: 1000px;
 }
 
 .jumbo-text-box{
     width: 35%;
+    font-size: 1.1em;
+    padding: 0px 120px 0px 0px;
 }
+
+.jumbo-text-box .blue-button{
+    margin-top: 30px;
+}
+
+.jumbo-text-box p:nth-of-type(2){
+    padding-top: 10px;
+}
+
+.jumbo-text-box i{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
 
 .jumbo-img-box{
     width: 64%;
@@ -70,6 +84,11 @@ ul.header-menu li{
 
 .jumbo-img-box img{
     width: 100%;
+}
+
+.jumbo-container h1{
+    font-size: 6.2em;
+    padding: 80px 0 50px 0;
 }
 
 
