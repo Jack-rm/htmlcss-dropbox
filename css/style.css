@@ -56,6 +56,7 @@ ul.header-menu li{
     margin: 0 auto;
     width: 75%;
     min-width: 1000px;
+    min-height: 1000px;
 }
 
 .jumbo-text-box{
