@@ -268,7 +268,7 @@ ul.header-menu li{
 }
 
 .wrapper-head{
-    margin: 150px 0px 60px 0px;
+    margin: 100px 0px 60px 0px;
 }
 
 .wrapper-head h3{
@@ -420,19 +420,46 @@ ul.header-menu li{
 
 
 
+footer{
+    background-color: black;
+}
 
+.footer-main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
 
+.footer-column{
+    color: white;
+    width: 20%;
+    line-height: 30px;
+}
 
+.footer-main .footer-column h5{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 20px;
 
+}
 
+.footer-main .footer-column li{
+    font-size: 0.9em;
+}
 
+footer hr{
+    width: 5%;
+    border: 1px solid rgb(128, 128, 128);
+    margin-bottom: 35px;
+    margin-left: 125px;
+}
 
-
-
-
-
-
-
+footer p{
+    color: grey;
+    font-size: 0.9em;
+    padding-left: 125px;
+    padding-bottom: 40px;
+}
 
 .clearfix::after{
     content:'';
