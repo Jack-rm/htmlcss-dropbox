@@ -17,16 +17,25 @@ ul {
     display: inline-block;
 }
 
-.topbar{
-    width: 98%;
-    margin: 0 auto;
-    height: 80px;
-    line-height: 80px;
+footer{
+    background-color: black;
 }
 
-.small-logo img{
-    vertical-align: middle;
+footer hr{
+    width: 5%;
+    border: 1px solid rgb(128, 128, 128);
+    margin-bottom: 35px;
+    margin-left: 125px;
 }
+
+footer p{
+    color: grey;
+    font-size: 0.9em;
+    padding-left: 125px;
+    padding-bottom: 40px;
+}
+
+/* Tasti */
 
 .blue-button{
     background-color: #0061ff;
@@ -44,6 +53,29 @@ ul {
     font-size: 1.1em;
 }
 
+.trial-section button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 60px;
+    font-size: 1.1em;
+    margin-top: 120px;
+}
+
+/* Header */
+
+.topbar{
+    width: 98%;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+}
+
+.small-logo img{
+    vertical-align: middle;
+}
+
+
 ul.header-menu{
     padding: 0 40px;
 }
@@ -53,6 +85,8 @@ ul.header-menu li{
     font-size: 1.1em;
     padding: 0 20px;
 }
+
+/* Jumbotron */
 
 .jumbotron{
     background-color: #b4d0e7;
@@ -99,10 +133,14 @@ ul.header-menu li{
     padding: 80px 0 50px 0;
 }
 
+/* Contenitore con la width minore */
+
 .main-container{
     width: 60%;
     margin: 0 auto;
 }
+
+/* Sezione business con le 3 colonne con le diverse offerte */
 
 .business-section{
     padding-top: 250px;
@@ -172,7 +210,7 @@ ul.header-menu li{
     padding: 15px 0;
 }
 
-
+/* Sezione Team*/
 
 .team-section{
     margin-top: 60px;
@@ -204,6 +242,8 @@ ul.header-menu li{
     font-weight: bold;
 }
 
+/*Sezione Partner */
+
 .partner-section{
     margin-top: 120px; 
 }
@@ -231,6 +271,7 @@ ul.header-menu li{
     font-size: 1.5em;
 }
 
+/* Sezione Operations con doppia row di immagini */
 
 .operations-section{
     padding-top: 80px;
@@ -266,6 +307,8 @@ ul.header-menu li{
 .row-box p{
     padding-top: 20px;
 }
+
+/* Sezione Wrapper con l'head e il mosaico di loghi */
 
 .wrapper-head{
     margin: 100px 0px 60px 0px;
@@ -331,6 +374,102 @@ ul.header-menu li{
     filter: invert()
 }
 
+/* Sezione Trial */
+
+.trial-section{
+    width: 100%;
+    height: 350px;
+    background-color: #b4d0e7;
+}
+
+.trial-section h3{
+    font-size: 2.8em;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 100px;
+    color: #61082b;
+}
+
+/* Sezione Questions */
+
+.questions{
+    padding: 120px 0px;
+}
+
+.questions h4{
+    font-size: 1.8em;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+
+.questions p{
+    display: inline-block;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.questions hr{
+    color: black;
+    border: 1px solid lightgray;
+}
+
+.questions i{
+    padding: 40px 20px 0px 0px;
+}
+
+/* Footer */
+
+.footer-main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.footer-column{
+    color: white;
+    width: 20%;
+    line-height: 30px;
+}
+
+.footer-main .footer-column h5{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    
+}
+
+.footer-main .footer-column li{
+    font-size: 0.9em;
+}
+
+/* proprietà css generali tipo clearfix, float, colori, bg colori ecc */
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.bl{
+    color: #0061ff;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.gray{
+    color: gray;
+}
+
 .bg-arizona{
     background-color: #61082b;
 }
@@ -362,127 +501,4 @@ ul.header-menu li{
 
 .bg-channel{
     background-color: #ffd830;
-}
-
-
-
-.trial-section{
-    width: 100%;
-    height: 350px;
-    background-color: #b4d0e7;
-}
-
-.trial-section h3{
-    font-size: 2.8em;
-    font-weight: 700;
-    display: inline-block;
-    padding-top: 100px;
-    color: #61082b;
-}
-
-.trial-section button{
-    background-color: white;
-    color: black;
-    border: none;
-    padding: 5px 60px;
-    font-size: 1.1em;
-    margin-top: 120px;
-}
-
-
-
-
-.questions{
-    padding: 120px 0px;
-}
-
-.questions h4{
-    font-size: 1.8em;
-    font-weight: 700;
-    padding-bottom: 80px;
-}
-
-.questions p{
-    display: inline-block;
-    font-weight: bold;
-    line-height: 100px;
-}
-
-.questions hr{
-    color: black;
-    border: 1px solid lightgray;
-}
-
-.questions i{
-    padding: 40px 20px 0px 0px;
-}
-
-
-
-
-footer{
-    background-color: black;
-}
-
-.footer-main{
-    width: 90%;
-    margin: 0 auto;
-    padding: 80px 0px;
-}
-
-.footer-column{
-    color: white;
-    width: 20%;
-    line-height: 30px;
-}
-
-.footer-main .footer-column h5{
-    font-size: 1.3em;
-    font-weight: bold;
-    padding-bottom: 20px;
-
-}
-
-.footer-main .footer-column li{
-    font-size: 0.9em;
-}
-
-footer hr{
-    width: 5%;
-    border: 1px solid rgb(128, 128, 128);
-    margin-bottom: 35px;
-    margin-left: 125px;
-}
-
-footer p{
-    color: grey;
-    font-size: 0.9em;
-    padding-left: 125px;
-    padding-bottom: 40px;
-}
-
-.clearfix::after{
-    content:'';
-    display: table;
-    clear: both;
-}
-
-.fl{
-    float: left;
-}
-
-.fr{
-    float: right;
-}
-
-.bl{
-    color: #0061ff;
-}
-
-.underline{
-    text-decoration: underline;
-}
-
-.gray{
-    color: gray;
 }
