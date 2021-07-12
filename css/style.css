@@ -267,9 +267,74 @@ ul.header-menu li{
     padding-top: 20px;
 }
 
-.underline{
-    text-decoration: underline;
+
+
+
+
+
+.wrapper{
+    width: 100vw;
+    height: 500px;
 }
+
+.wrapper .wrapper-main{
+    width: 40%;
+}
+
+
+.wrapper .wrapper-side{
+    width: 30%;
+}
+
+
+.w-box {
+    width: 330px;
+    height: 250px;
+    position: relative;
+    
+}
+
+.w-box img{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+.w-box svg{
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+
+.w-box svg path{
+    fill: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .clearfix::after{
     content:'';
@@ -287,6 +352,10 @@ ul.header-menu li{
 
 .bl{
     color: #0061ff;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 .gray{
