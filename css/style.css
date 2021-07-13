@@ -172,38 +172,12 @@ ul.header-menu li:hover > .window{
     padding: 80px 0 50px 0;
 }
 
-.jumbo-img-box:hover
-{
-     animation: swing 1s ease;
-     animation-iteration-count: 1;
+.jumbo-img-box:hover{
+    transition: transform 2s;
 }
 
-@keyframes swing
-{
-    15%
-    {
-        transform: translateX(5px);
-    }
-    30%
-    {
-        transform: translateX(-5px);
-    }
-    50%
-    {
-        transform: translateX(3px);
-    }
-    65%
-    {
-        transform: translateX(-3px);
-    }
-    80%
-    {
-        transform: translateX(2px);
-    }
-    100%
-    {
-        transform: translateX(0);
-    }
+.jumbo-img-box:hover{
+    transform: scale(1.1)
 }
 
 
@@ -397,6 +371,40 @@ ul.header-menu li:hover > .window{
 
 .row-box p{
     padding-top: 20px;
+}
+
+.row-box img:hover
+{
+     animation: swing 1s ease;
+     animation-iteration-count: 1;
+}
+
+@keyframes swing
+{
+    15%
+    {
+        transform: translateX(5px);
+    }
+    30%
+    {
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        transform: translateX(3px);
+    }
+    65%
+    {
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        transform: translateX(2px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
 }
 
 /* Sezione Wrapper con l'head e il mosaico di loghi */
