@@ -62,6 +62,14 @@ footer p{
     margin-top: 120px;
 }
 
+.b-bg-button:hover{
+    background: #5194ff;
+}
+
+.w-bg-button:hover{
+    background: #f7f9fa;
+}
+
 /* Header */
 
 .topbar{
@@ -241,6 +249,10 @@ ul.header-menu li:hover > .window{
     padding: 15px 0;
 }
 
+.business-column:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
 /* Sezione Team*/
 
 .team-section{
@@ -405,6 +417,10 @@ ul.header-menu li:hover > .window{
     filter: invert()
 }
 
+.w-box:hover{
+    border: 15px solid rgba(255,255,255, 0.5)
+}
+
 /* Sezione Trial */
 
 .trial-section{
@@ -515,7 +531,6 @@ ul.header-menu li:hover > .window{
 
 .bg-designit{
     background-color: #a2d39b;
-    border: 15px solid rgba(255,255,255, 0.5)
 }
 
 .bg-bicycle{
@@ -533,3 +548,4 @@ ul.header-menu li:hover > .window{
 .bg-channel{
     background-color: #ffd830;
 }
+
