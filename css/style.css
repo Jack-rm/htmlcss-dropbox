@@ -515,12 +515,14 @@ ul.header-menu li:hover > .window{
 .hidden-answer{
     width: 100%;
     line-height: 30px;
-    background-color: red;
-    display: none;
+    opacity: 0;
+    height: 0px;
 }
 
-.questions p:hover .hidden-answer{
-    display: block;
+.questions .hidden-answer:hover{
+    height: 100%;
+    opacity: 1;
+    padding: 0px 40px 20px 0px;
 }
 
 /* Footer */
