@@ -194,10 +194,10 @@ ul.header-menu li{
     font-weight: 700;
 }
 
-.column-main hr{
-    width: 20%;
-    color: black;
-    border: 1px solid lightgray;
+.column-main .divisor{
+    width: 25%;
+    background-color: lightgrey;
+    height: 1px;
     margin-top: 35px;
 }
 
