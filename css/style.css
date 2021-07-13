@@ -172,6 +172,41 @@ ul.header-menu li:hover > .window{
     padding: 80px 0 50px 0;
 }
 
+.jumbo-img-box:hover
+{
+     animation: swing 1s ease;
+     animation-iteration-count: 1;
+}
+
+@keyframes swing
+{
+    15%
+    {
+        transform: translateX(5px);
+    }
+    30%
+    {
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        transform: translateX(3px);
+    }
+    65%
+    {
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        transform: translateX(2px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+
+
 /* Contenitore con la width minore */
 
 .main-container{
@@ -301,7 +336,7 @@ ul.header-menu li:hover > .window{
 
 .partner-section .partner-img img:hover {
 	opacity: 1;
-	animation: flash 2s;
+	animation: flash 1.5s;
 }
 @keyframes flash {
 	0% {
@@ -475,7 +510,6 @@ ul.header-menu li:hover > .window{
 
 .questions i{
     padding: 40px 20px 0px 0px;
-    position: relative;
 }
 
 .hidden-answer{
@@ -483,11 +517,9 @@ ul.header-menu li:hover > .window{
     line-height: 30px;
     background-color: red;
     display: none;
-    z-index: 1000;
-    position: absolute;
 }
 
-.questions i:hover .hidden-answer{
+.questions p:hover .hidden-answer{
     display: block;
 }
 
