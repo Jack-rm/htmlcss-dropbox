@@ -299,6 +299,19 @@ ul.header-menu li:hover > .window{
     width: 700px;
 }
 
+.partner-section .partner-img img:hover {
+	opacity: 1;
+	animation: flash 2s;
+}
+@keyframes flash {
+	0% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .partner-section .partner-text{
     width: 35%;
     padding: 35px 0px 0px 10px;
@@ -449,7 +462,7 @@ ul.header-menu li:hover > .window{
     padding-bottom: 80px;
 }
 
-.questions p{
+.questions > p{
     display: inline-block;
     font-weight: bold;
     line-height: 100px;
@@ -462,6 +475,20 @@ ul.header-menu li:hover > .window{
 
 .questions i{
     padding: 40px 20px 0px 0px;
+    position: relative;
+}
+
+.hidden-answer{
+    width: 100%;
+    line-height: 30px;
+    background-color: red;
+    display: none;
+    z-index: 1000;
+    position: absolute;
+}
+
+.questions i:hover .hidden-answer{
+    display: block;
 }
 
 /* Footer */
