@@ -83,7 +83,6 @@ footer p{
     vertical-align: middle;
 }
 
-
 ul.header-menu{
     padding: 0 40px;
 }
@@ -92,7 +91,7 @@ ul.header-menu > li{
     font-weight: 400;
     font-size: 1.1em;
     margin: 0 20px;
-    position:relative;
+    position: relative;
 }
 
 ul.header-menu > li:hover{
@@ -106,7 +105,7 @@ ul.header-menu > li:hover{
     left: 0px;
     background-color: white;
     line-height: 40px;
-    width: 215px;
+    width: 225px;
 }
 
 .window ul li{
@@ -115,6 +114,7 @@ ul.header-menu > li:hover{
     display: block;
     text-align: middle;
     padding: 0px 10px 0px 21px;
+    width: 225px;
 }
 
 ul.header-menu li:hover > .window{
@@ -180,7 +180,6 @@ ul.header-menu li:hover > .window{
     transform: scale(1.1)
 }
 
-
 /* Contenitore con la width minore */
 
 .main-container{
@@ -230,7 +229,7 @@ ul.header-menu li:hover > .window{
 }
 
 .business-column .blue-button{
-    margin: 25px 0;
+    margin: 25px 0; 
 }
 
 .column-main .column-price{
@@ -311,6 +310,7 @@ ul.header-menu li:hover > .window{
 .partner-section .partner-img img:hover {
 	opacity: 1;
 	animation: flash 1.5s;
+
 }
 @keyframes flash {
 	0% {
@@ -611,4 +611,3 @@ ul.header-menu li:hover > .window{
 .bg-channel{
     background-color: #ffd830;
 }
-
